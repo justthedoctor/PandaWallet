@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/about_title">
         <Preference android:title="Version" android:key="about_version" />
-        <Preference android:title="Copyright" android:summary="© 2015-2016, FelixFire\n© 2014, Digital Pandacoin (PND) Dev Team" />
+        <Preference android:title="Copyright" android:summary="© 2015-2018 \n Digital Pandacoin (PND) Dev Team" />
         <Preference android:title="@string/about_license_title" android:key="about_license" />
         <Preference android:title="@string/about_credits_website_title" android:key="about_credits_website" />
         <Preference android:title="@string/about_credits_forum_title" android:key="about_credits_forum" />
