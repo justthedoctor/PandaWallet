@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_list" android:paddingLeft="@dimen/list_entry_padding_horizontal" android:paddingTop="@dimen/list_entry_padding_vertical" android:paddingRight="@dimen/list_entry_padding_horizontal" android:paddingBottom="@dimen/list_entry_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/font_size_normal" android:textStyle="bold" android:ellipsize="end" android:id="@id/address_book_row_label" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="3" android:singleLine="false" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_size_small" android:textColor="@android:color/darker_gray" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/address_book_row_created" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size_normal" android:layout_gravity="right" android:id="@id/address_book_row_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fg_error" android:id="@id/address_book_row_message" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/address_book_row_message_compromised_key" />
+</LinearLayout>

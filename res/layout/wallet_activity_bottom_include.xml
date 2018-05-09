@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/action_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_dark" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="de.schildbach.wallet.ui.WalletActionsFragment" android:id="@id/wallet_actions_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <fragment android:name="de.schildbach.wallet.ui.WalletDisclaimerFragment" android:id="@id/wallet_disclaimer_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
+    <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="red">#ff3271a8</color>
+    <color name="green">#ff38a832</color>
+    <color name="fg_significant">#ff000000</color>
+    <color name="fg_less_significant">#ff666666</color>
+    <color name="fg_insignificant">#ffcccccc</color>
+    <color name="fg_error">#ffff0000</color>
+    <color name="bg_bright">#ffffffff</color>
+    <color name="bg_less_bright">#ffe8e8f0</color>
+    <color name="bg_panel">#ffd8d8e0</color>
+    <color name="bg_form">#ffe8e8f0</color>
+    <color name="bg_list">#40ffffff</color>
+    <color name="bg_list_selected">#40808090</color>
+    <color name="bg_dialog_title">#ffb8b8b0</color>
+    <color name="scan_mask">#60000000</color>
+    <color name="scan_laser">#ffcc0000</color>
+    <color name="scan_dot">#ffff6600</color>
+    <color name="scan_result_view">#b0000000</color>
+    <color name="scan_result_dots">#c099cc00</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_edit" android:id="@id/send_coins_address_context_edit_address" android:title="@string/button_edit_address" android:titleCondensed="@string/button_edit" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_action_clear" android:id="@id/send_coins_address_context_clear" android:title="@string/send_coins_address_context_clear_title" android:showAsAction="always|withText" />
+</menu>

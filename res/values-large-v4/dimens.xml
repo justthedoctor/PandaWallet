@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abs__dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abs__dialog_min_width_minor">79.99999%</item>
+    <dimen name="font_size_tiny">13.0sp</dimen>
+    <dimen name="font_size_small">16.0sp</dimen>
+    <dimen name="font_size_normal">20.0sp</dimen>
+    <dimen name="font_size_large">26.0sp</dimen>
+    <dimen name="font_size_xlarge">31.0sp</dimen>
+    <dimen name="font_size_huge">46.0sp</dimen>
+    <dimen name="symbol_size_normal">15.0sp</dimen>
+    <dimen name="wallet_address_qr_size">112.0dip</dimen>
+    <dimen name="wallet_address_qr_size_large">160.0dip</dimen>
+</resources>

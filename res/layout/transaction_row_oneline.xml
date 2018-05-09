@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/bg_list" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.schildbach.wallet.util.CircularProgressView android:id="@id/transaction_row_confidence_circular" android:layout_width="@dimen/symbol_size_normal" android:layout_height="@dimen/symbol_size_normal" android:layout_marginRight="8.0dip" />
+    <TextView android:textSize="@dimen/font_size_normal" android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/transaction_row_confidence_textual" android:layout_width="@dimen/symbol_size_normal" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    <TextView android:textSize="@dimen/font_size_normal" android:id="@id/transaction_row_fromto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    <ImageView android:id="@id/transaction_row_coinbase" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/coinbase" android:baselineAlignBottom="true" />
+    <TextView android:textSize="@dimen/font_size_normal" android:gravity="left" android:layout_gravity="left" android:id="@id/transaction_row_address" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <de.schildbach.wallet.ui.CurrencyTextView android:textSize="@dimen/font_size_normal" android:layout_gravity="right" android:id="@id/transaction_row_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+</LinearLayout>

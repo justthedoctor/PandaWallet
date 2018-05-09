@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_category_main">
+        <ListPreference android:entries="@array/preferences_precision_labels" android:title="@string/preferences_precision_title" android:key="btc_precision" android:summary="@string/preferences_precision_summary" android:defaultValue="2/0" android:entryValues="@array/preferences_precision_values" />
+        <CheckBoxPreference android:title="@string/preferences_connectivity_notification_title" android:key="connectivity_notification" android:summary="@string/preferences_connectivity_notification_summary" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/preferences_trusted_peer_title" android:key="trusted_peer" android:summary="@string/preferences_trusted_peer_summary" />
+        <CheckBoxPreference android:title="@string/preferences_trusted_peer_only_title" android:key="trusted_peer_only" android:summary="@string/preferences_trusted_peer_only_summary" android:defaultValue="false" />
+        <Preference android:title="@string/preferences_data_usage_title" android:key="data_usage" android:summary="@string/preferences_data_usage_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_diagnostics">
+        <Preference android:title="@string/preferences_report_issue_title" android:key="report_issue" android:summary="@string/preferences_report_issue_summary" />
+        <Preference android:title="@string/preferences_initiate_reset_title" android:key="initiate_reset" android:summary="@string/preferences_initiate_reset_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_labs">
+        <Preference android:icon="@drawable/ic_menu_warning" android:title="Warning" android:summary="This is all unfinished stuff. Use at your own risk!" />
+        <CheckBoxPreference android:title="Show disclaimer" android:key="disclaimer" android:summary="Have you really read the safety notes? Did you already back up your private keys to a safe place?" android:defaultValue="true" />
+        <CheckBoxPreference android:title="BIP70 for scan-to-pay" android:key="labs_qr_payment_request" android:summary="Use payment protocol for QR-code initiated payments" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

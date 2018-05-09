@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="wallet_content">@layout/wallet_activity_onepane_vertical</item>
+    <item type="layout" name="wallet_address_fragment">@layout/wallet_address_fragment_horizontal</item>
+    <item type="layout" name="address_book_content">@layout/address_book_onepane</item>
+    <item type="layout" name="network_monitor_content">@layout/network_monitor_onepane</item>
+</resources>

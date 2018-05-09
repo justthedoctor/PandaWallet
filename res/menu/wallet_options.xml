@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_receive" android:id="@id/wallet_options_request" android:visible="@bool/wallet_actions_top" android:title="@string/request_coins_activity_title" android:titleCondensed="@string/button_request_coins" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_action_send" android:id="@id/wallet_options_send" android:visible="@bool/wallet_actions_top" android:title="@string/send_coins_activity_title" android:titleCondensed="@string/button_send_coins" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_action_camera" android:id="@id/wallet_options_scan" android:visible="@bool/wallet_actions_top" android:title="@string/button_scan" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_action_labels" android:id="@id/wallet_options_address_book" android:title="@string/address_book_activity_title" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/wallet_options_exchange_rates" android:title="@string/exchange_rates_activity_title" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_network_monitor" android:title="@string/network_monitor_activity_title" android:showAsAction="never" />
+    <item android:title="@string/wallet_options_backup" android:showAsAction="never">
+        <menu>
+            <item android:id="@id/wallet_options_export_keys" android:title="@string/export_keys_dialog_title" android:showAsAction="never" />
+            <item android:id="@id/wallet_options_import_keys" android:title="@string/import_keys_dialog_title" android:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@id/wallet_options_disconnect" android:title="@string/wallet_options_disconnect" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_preferences" android:title="@string/preferences_activity_title" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_about" android:title="@string/about_title" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_safety" android:title="@string/wallet_options_safety" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_donate" android:title="@string/wallet_options_donate" android:showAsAction="never" />
+    <item android:id="@id/wallet_options_help" android:title="@string/button_help" android:showAsAction="never" />
+</menu>

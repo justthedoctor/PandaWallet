@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/appwidget_dark_bg_clickable" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:layout_gravity="center" android:orientation="vertical" android:id="@id/widget_button_balance" android:background="@drawable/appwidget_button_left" android:focusable="true" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/app_icon" />
+            <TextView android:textSize="24.0sp" android:textColor="#ffbbbbbb" android:id="@id/widget_wallet_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="PND" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="30.0sp" android:textColor="#ffeeeeee" android:ellipsize="none" android:id="@id/widget_wallet_balance" android:fadingEdge="horizontal" android:fadingEdgeLength="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/appwidget_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/widget_button_request" android:background="@drawable/appwidget_button_center" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/ic_action_receive" android:layout_weight="1.0" />
+    <ImageView android:background="@drawable/appwidget_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/widget_button_send" android:background="@drawable/appwidget_button_center" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/ic_action_send" android:layout_weight="1.0" />
+    <ImageView android:background="@drawable/appwidget_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/widget_button_send_qr" android:background="@drawable/appwidget_button_right" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/ic_action_camera" android:layout_weight="1.0" />
+</LinearLayout>

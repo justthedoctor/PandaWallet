@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_dark" android:measureWithLargestChild="true" android:dividerPadding="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/font_size_tiny" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/wallet_actions_request" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_request_coins" android:singleLine="true" android:drawableLeft="@drawable/ic_action_receive" android:textAllCaps="true" style="@style/My.Widget.Button.Borderless" />
+    <View android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/font_size_tiny" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/wallet_actions_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_send_coins" android:singleLine="true" android:drawableRight="@drawable/ic_action_send" android:textAllCaps="true" style="@style/My.Widget.Button.Borderless" />
+    <ImageButton android:id="@id/wallet_actions_send_qr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_camera" style="@style/My.Widget.Button.Borderless" />
+</LinearLayout>

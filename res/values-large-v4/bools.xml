@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="wallet_actions_top">true</bool>
+    <bool name="show_exchange_rates_option">true</bool>
+    <bool name="show_local_balance">true</bool>
+</resources>

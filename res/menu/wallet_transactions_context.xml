@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_edit" android:id="@id/wallet_transactions_context_edit_address" android:title="@string/button_edit_address" android:titleCondensed="@string/button_edit" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_action_qr" android:id="@id/wallet_transactions_context_show_qr" android:title="@string/wallet_transactions_context_show_qr_title" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/wallet_transactions_context_browse" android:title="@string/action_browse" android:showAsAction="never" />
+    <item android:id="@id/wallet_transactions_context_show_transaction" android:title="@string/wallet_transactions_context_show_transaction_title" android:showAsAction="never" />
+</menu>

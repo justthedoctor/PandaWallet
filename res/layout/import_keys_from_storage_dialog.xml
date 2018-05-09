@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/bg_form" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax" android:layout_marginTop="@dimen/list_entry_padding_vertical_lax" android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax" android:layout_marginBottom="@dimen/list_entry_padding_vertical" android:text="@string/import_keys_dialog_message" />
+        <Spinner android:textSize="@dimen/font_size_normal" android:id="@id/import_keys_from_storage_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal" android:layout_marginTop="@dimen/list_entry_padding_vertical" android:layout_marginRight="@dimen/list_entry_padding_horizontal">
+            <requestFocus />
+        </Spinner>
+        <EditText android:textSize="@dimen/font_size_normal" android:id="@id/import_keys_from_storage_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal" android:layout_marginTop="@dimen/list_entry_padding_vertical" android:layout_marginRight="@dimen/list_entry_padding_horizontal" android:hint="@string/import_export_keys_dialog_password" android:singleLine="true" android:inputType="textPassword" />
+        <CheckBox android:textSize="@dimen/font_size_normal" android:id="@id/import_keys_from_storage_show" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal" android:layout_marginTop="@dimen/list_entry_padding_vertical" android:layout_marginRight="@dimen/list_entry_padding_horizontal" android:checked="false" android:text="@string/import_export_keys_dialog_show" />
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fg_less_significant" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax" android:layout_marginTop="@dimen/list_entry_padding_vertical_lax" android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax" android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax" android:text="@string/import_keys_dialog_warning" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/appwidget_dark_bg_pressed" android:insetLeft="8.0dip" android:insetRight="8.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+    </item>
+    <item android:state_focused="true" android:state_window_focused="true" android:state_enabled="true">
+        <inset android:drawable="@drawable/appwidget_dark_bg_focused" android:insetLeft="8.0dip" android:insetRight="8.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+    </item>
+    <item>
+        <inset android:drawable="@drawable/appwidget_dark_bg" android:insetLeft="8.0dip" android:insetRight="8.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+    </item>
+</selector>

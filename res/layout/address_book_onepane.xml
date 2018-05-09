@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.schildbach.wallet.util.ViewPagerTabs android:id="@id/address_book_pager_tabs" android:background="@color/bg_less_bright" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager android:layout_gravity="bottom|center" android:id="@id/address_book_pager" android:background="@color/bg_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>
