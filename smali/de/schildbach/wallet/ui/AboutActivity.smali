@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const-string v2, "http://digitalpandacoin.org"
+    const-string v2, "https://pandacoin.tech"
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
@@ -118,7 +118,7 @@
 
     move-result-object v1
 
-    const-string v2, "http://forum.digitalpandacoin.org"
+    const-string v2, "https://t.me/DigitalPandacoin"
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
@@ -236,7 +236,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const-string v3, "http://digitalpandacoin.org"
+    const-string v3, "https://pandacoin.tech"
 
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -266,7 +266,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const-string v3, "http://forum.digitalpandacoin.org"
+    const-string v3, "https://pandacoin.tech"
 
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

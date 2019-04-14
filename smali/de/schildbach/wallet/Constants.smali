@@ -38,11 +38,11 @@
 
 .field public static final CREDITS_BITCOINJ_URL:Ljava/lang/String;
 
-.field public static final CREDITS_FORUM_URL:Ljava/lang/String; = "http://forum.digitalpandacoin.org"
+.field public static final CREDITS_FORUM_URL:Ljava/lang/String; = "https://t.me/DigitalPandacoin"
 
 .field public static final CREDITS_ICON_URL:Ljava/lang/String; = "https://bitcointalk.org/index.php?action=profile;u=2062"
 
-.field public static final CREDITS_WEBSITE_URL:Ljava/lang/String; = "http://digitalpandacoin.org"
+.field public static final CREDITS_WEBSITE_URL:Ljava/lang/String; = "https://pandacoin.tech/"
 
 .field public static final CREDITS_ZXING_URL:Ljava/lang/String; = "http://code.google.com/p/zxing/"
 
