@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="cc.pandacoin.wallet">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="cc.pandacoinv2.wallet">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -78,8 +78,8 @@
             </intent-filter>
         </activity>
         <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="de.schildbach.wallet.ui.ScanActivity" android:screenOrientation="landscape" android:stateNotNeeded="true" android:theme="@style/My.Theme.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden"/>
-        <provider android:authorities="cc.pandacoin.wallet.address_book" android:exported="false" android:name="de.schildbach.wallet.AddressBookProvider"/>
-        <provider android:authorities="cc.pandacoin.wallet.exchange_rates" android:exported="false" android:name="de.schildbach.wallet.ExchangeRatesProvider"/>
+        <provider android:authorities="cc.pandacoinv2.wallet.address_book" android:exported="false" android:name="de.schildbach.wallet.AddressBookProvider"/>
+        <provider android:authorities="cc.pandacoinv2.wallet.exchange_rates" android:exported="false" android:name="de.schildbach.wallet.ExchangeRatesProvider"/>
         <receiver android:label="pandacoin Wallet Balance" android:name="de.schildbach.wallet.WalletBalanceWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
