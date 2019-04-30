@@ -342,7 +342,7 @@
     :try_start_0
     new-instance v7, Ljava/net/URL;
 
-    const-string v9, "https://api.mintpal.com/v1/market/stats/PND/BTC"
+    const-string v9, "https://www.cryptopia.co.nz/api/GetMarket/PND_BTC"
 
     invoke-direct {v7, v9}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
