@@ -95,7 +95,7 @@
     :try_start_0
     new-instance v1, Ljava/net/URL;
 
-    const-string v2, "https://api.bitcoinaverage.com/custom/abw"
+    const-string v2, "https://apiv2.bitcoinaverage.com/indices/ticker/custom/abw"
 
     invoke-direct {v1, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
@@ -342,7 +342,7 @@
     :try_start_0
     new-instance v7, Ljava/net/URL;
 
-    const-string v9, "https://www.cryptopia.co.nz/api/GetMarket/PND_BTC"
+    const-string v9, "https://api.mintpal.com/v1/market/stats/PND/BTC"
 
     invoke-direct {v7, v9}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
