@@ -204,7 +204,7 @@
 
     new-array v3, v5, [Ljava/lang/String;
 
-    const-string v4, "jommy@pandacoin.tech"
+    const-string v4, "Jommy@pandacoin.tech"
 
     aput-object v4, v3, v6
 

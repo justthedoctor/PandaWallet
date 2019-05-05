@@ -23,7 +23,7 @@
 
 .field public static final BLOCKEXPLORER_BLOCK_PATH:Ljava/lang/String; = "block/"
 
-.field public static final BLOCKEXPLORER_TRANSACTION_PATH:Ljava/lang/String; = "tx/"
+.field public static final BLOCKEXPLORER_TRANSACTION_PATH:Ljava/lang/String; = "tx.dws?"
 
 .field public static final BLOCK_CURRENTVERSION:I = 0x3
 

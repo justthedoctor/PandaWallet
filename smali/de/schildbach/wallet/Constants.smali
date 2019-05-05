@@ -70,7 +70,7 @@
 
 .field public static final EXPLORE_BLOCK_PATH:Ljava/lang/String; = "block/"
 
-.field public static final EXPLORE_TRANSACTION_PATH:Ljava/lang/String; = "tx/"
+.field public static final EXPLORE_TRANSACTION_PATH:Ljava/lang/String; = "tx.dws?"
 
 .field public static final EXTERNAL_WALLET_BACKUP_DIR:Ljava/io/File;
 
@@ -630,7 +630,7 @@
 
     .line 57
     :cond_2
-    const-string v0, "https://chainz.cryptoid.info/pnd/"
+    const-string v0, "https://chainz.cryptoid.info/pnd/tx.dws?"
 
     goto/16 :goto_2
 
