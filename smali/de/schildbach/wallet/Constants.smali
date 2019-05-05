@@ -64,9 +64,9 @@
 
 .field public static final EXPLORE_BASE_URL:Ljava/lang/String;
 
-.field private static final EXPLORE_BASE_URL_PROD:Ljava/lang/String; = "http://pnd.showed.us/"
+.field private static final EXPLORE_BASE_URL_PROD:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
-.field private static final EXPLORE_BASE_URL_TEST:Ljava/lang/String; = "http://pnd.showed.us/"
+.field private static final EXPLORE_BASE_URL_TEST:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
 .field public static final EXPLORE_BLOCK_PATH:Ljava/lang/String; = "block/"
 
@@ -110,7 +110,7 @@
 
 .field public static final PREFIX_ALMOST_EQUAL_TO:Ljava/lang/String;
 
-.field public static final REPORT_EMAIL:Ljava/lang/String; = "Skirmant@gmx.com"
+.field public static final REPORT_EMAIL:Ljava/lang/String; = "jommy@pandacoin.tech"
 
 .field public static final REPORT_SUBJECT_CRASH:Ljava/lang/String; = "Crash report"
 
@@ -375,7 +375,7 @@
 
     if-eqz v0, :cond_2
 
-    const-string v0, "http://pnd.showed.us/"
+    const-string v0, "https://chainz.cryptoid.info/pnd/"
 
     :goto_2
     sput-object v0, Lde/schildbach/wallet/Constants;->EXPLORE_BASE_URL:Ljava/lang/String;
@@ -630,7 +630,7 @@
 
     .line 57
     :cond_2
-    const-string v0, "http://pnd.showed.us/"
+    const-string v0, "https://chainz.cryptoid.info/pnd/"
 
     goto/16 :goto_2
 
