@@ -184,7 +184,7 @@
 
     move-result-object v4
 
-    const-string v5, "tx/"
+    const-string v5, "tx.dws?"
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
