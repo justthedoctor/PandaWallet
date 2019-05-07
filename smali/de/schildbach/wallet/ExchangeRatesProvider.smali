@@ -95,7 +95,7 @@
     :try_start_0
     new-instance v1, Ljava/net/URL;
 
-    const-string v2, "https://apiv2.bitcoinaverage.com/indices/ticker/custom/abw"
+    const-string v2, "https://apiv2.bitcoinaverage.com/indices/global/ticker/all?crypto=BTC&fiat=USD,EUR"
 
     invoke-direct {v1, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 

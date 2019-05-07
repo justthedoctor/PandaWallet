@@ -2,10 +2,10 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>DGC, 8 decimaler</item>
-		<item>DGC, 6 decimaler</item>
-		<item>DGC, 4 decimaler</item>
-		<item>mDGC, 2 decimaler</item>
+		<item>PND, 8 decimaler</item>
+		<item>PND, 6 decimaler</item>
+		<item>PND, 4 decimaler</item>
+		<item>mPND, 2 decimaler</item>
 	</string-array>
 
 </resources>
