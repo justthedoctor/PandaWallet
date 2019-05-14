@@ -60,7 +60,7 @@
 
 .field public static final DONATION_ADDRESS:Ljava/lang/String; = "PBAdSebKmFuDUJP257xReuLnijkAtsP25E"
 
-.field public static final EXPLORE_ADDRESS_PATH:Ljava/lang/String; = "address/"
+.field public static final EXPLORE_ADDRESS_PATH:Ljava/lang/String; = "address.dws?"
 
 .field public static final EXPLORE_BASE_URL:Ljava/lang/String;
 

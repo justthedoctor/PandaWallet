@@ -15,11 +15,11 @@
 # static fields
 .field public static final AddressHeader:I = 0x37
 
-.field public static final BLOCKEXPLORER_ADDRESS_PATH:Ljava/lang/String; = "address/"
+.field public static final BLOCKEXPLORER_ADDRESS_PATH:Ljava/lang/String; = "address.dws?"
 
-.field public static final BLOCKEXPLORER_BASE_URL_PROD:Ljava/lang/String; = "http://pnd.showed.us/"
+.field public static final BLOCKEXPLORER_BASE_URL_PROD:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
-.field public static final BLOCKEXPLORER_BASE_URL_TEST:Ljava/lang/String; = "http://pnd.showed.us/"
+.field public static final BLOCKEXPLORER_BASE_URL_TEST:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
 .field public static final BLOCKEXPLORER_BLOCK_PATH:Ljava/lang/String; = "block/"
 
