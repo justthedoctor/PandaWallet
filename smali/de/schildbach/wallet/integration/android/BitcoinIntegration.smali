@@ -233,7 +233,7 @@
 
     const-string v3, "android.intent.action.VIEW"
 
-    const-string v4, "https://github.com/pandacoin-official/pandacoin-wallet/releases"
+    const-string v4, "https://github.com/DigitalPandacoin/"
 
     invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

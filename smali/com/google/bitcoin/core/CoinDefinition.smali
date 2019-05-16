@@ -21,7 +21,7 @@
 
 .field public static final BLOCKEXPLORER_BASE_URL_TEST:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
-.field public static final BLOCKEXPLORER_BLOCK_PATH:Ljava/lang/String; = "block/"
+.field public static final BLOCKEXPLORER_BLOCK_PATH:Ljava/lang/String; = "block.dws?"
 
 .field public static final BLOCKEXPLORER_TRANSACTION_PATH:Ljava/lang/String; = "tx.dws?"
 

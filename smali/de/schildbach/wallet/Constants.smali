@@ -60,7 +60,8 @@
 
 .field public static final DONATION_ADDRESS:Ljava/lang/String; = "PBAdSebKmFuDUJP257xReuLnijkAtsP25E"
 
-.field public static final EXPLORE_ADDRESS_PATH:Ljava/lang/String; = "address.dws?"
+.field public static final  
+_PATH:Ljava/lang/String; = "address.dws?"
 
 .field public static final EXPLORE_BASE_URL:Ljava/lang/String;
 
@@ -68,7 +69,7 @@
 
 .field private static final EXPLORE_BASE_URL_TEST:Ljava/lang/String; = "https://chainz.cryptoid.info/pnd/"
 
-.field public static final EXPLORE_BLOCK_PATH:Ljava/lang/String; = "block/"
+.field public static final EXPLORE_BLOCK_PATH:Ljava/lang/String; = "block.dws?"
 
 .field public static final EXPLORE_TRANSACTION_PATH:Ljava/lang/String; = "tx.dws?"
 
@@ -478,7 +479,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "https://github.com/pandacoin-official/"
+    const-string v1, "https://github.com/DigitalPandacoin/"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -511,7 +512,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "https://github.com/pandacoin-official/"
+    const-string v1, "https://github.com/DigitalPandacoin/"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -544,7 +545,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "https://github.com/pandacoin-official/"
+    const-string v1, "https://github.com/DigitalPandacoin/"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
